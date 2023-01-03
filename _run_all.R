@@ -56,7 +56,9 @@ source(here::here("03_model_preparation/01_model_preparation.r"))
 
 
 # RUNNING THE MODEL ----------------------------------------------------------------------
+tic()
 source(here::here("04_running_the_model/01_running_the_model.r"))
+toc()
 
 
 # POST-PROCESSING ------------------------------------------------------------------------
